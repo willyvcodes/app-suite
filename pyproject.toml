@@ -1,0 +1,17 @@
+[project]
+name = "tool-suite"
+version = "0.1.0"
+description = "Streamlit-based AI tools: background remover, image converter, etc."
+authors = [{ name = "William Valido", email = "valido.william@gmail.com" }]
+requires-python = ">=3.10"
+
+dependencies = [
+  "streamlit",
+  "pillow",
+  "pillow-heif",
+  "rembg",
+  "rembg[gpu]"
+]
+
+[tool.setuptools]
+packages = ["utils"]
