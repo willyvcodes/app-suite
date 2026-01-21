@@ -16,6 +16,7 @@ RUN pip install --upgrade pip setuptools wheel
 # copy app files
 COPY app/pyproject.toml ./pyproject.toml
 COPY app/utils ./utils
+COPY app .
 RUN pip install .
 
 COPY . .
