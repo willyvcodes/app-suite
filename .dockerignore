@@ -1,9 +1,12 @@
+.git
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.venv/
-.git/
+*.log
+.venv
+env/
+*.env
 *.zip
 *.tar.gz
 .DS_Store
