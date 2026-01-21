@@ -9,7 +9,7 @@ dependencies = [
   "streamlit",
   "pillow",
   "pillow-heif",
-  "rembg"
+  "rembg[cpu]"
 ]
 
 [tool.setuptools]
