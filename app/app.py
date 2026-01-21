@@ -5,6 +5,7 @@ from utils.nav import top_nav
 top_nav()
 
 st.set_page_config("App Suite", page_icon="🧰")
+st.set_page_config(initial_sidebar_state="collapsed")
 
 st.title("App Suite")
 st.write("Choose a tool from the left sidebar.")
